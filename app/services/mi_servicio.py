@@ -1,5 +1,5 @@
 from app.repositories.base_repository import UserRepository
-from app.domain.models import User
+from app.domain.models_sql import User
 
 class MiServicio:
     def __init__(self, user_repo: UserRepository):
