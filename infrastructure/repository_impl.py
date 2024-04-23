@@ -1,5 +1,5 @@
 from app.repositories.base_repository import UserRepository
-from app.domain.models import User
+from app.domain.models_sql import User
 from data.database import get_session
 
 class SQLAlchemyUserRepository(UserRepository):
